@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    </head>
+    <body>
+        <div class='main'>
+            <div class="container">
+                <div class='card'>
+                    <div class='top'>
+                        <h3 class='headings'>HOME</h3>
+                    </div>
+                    <div class='mid'>
+                        <h1 id='home' class='score'>0</h1>
+                    </div>
+                    <div class='bottom'>
+                        <div class='buttons'>
+                            <button class='clicker' onclick="increment(1, 'home')">+1</button>
+                            <button class='clicker' onclick="increment(2, 'home')">+2</button>
+                            <button class='clicker' onclick="increment(3, 'home')">+3</button>
+                        </div>
+                    </div>
+                </div>
+                <div class='card'>
+                    <div class='top'>
+                        <h3 class='headings'>GUEST</h3>
+                    </div>
+                    <div class='mid'>
+                        <h1 id='guest' class='score'>0</h1>
+                    </div>
+                    <div class='bottom'>
+                        <div class='buttons'>
+                            <button class='clicker' onclick="increment(1, 'guest')">+1</button>
+                            <button class='clicker' onclick="increment(2, 'guest')">+2</button>
+                            <button class='clicker' onclick="increment(3, 'guest')">+3</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class='clicker' id='newGame' onclick="resetGame()">New Game</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

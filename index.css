@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 55px auto;
+    padding: 0px 0px;
+    width: 300px;
+    /* height: 400px; */
+    border: 2px solid #1B244A;
+    text-align: center;
+    /* justify-items: space-between; */
+    align-content: space-around;
+}
+
+.top {
+    margin: -30px 80px 0px 80px;
+    padding: 0px;
+    text-align: center;
+    /* border: 2px solid white; */
+}
+
+.mid {
+    margin: -90px 80px 10px 80px;
+    padding: 0px;
+    text-align: center;
+}
+
+.bottom {
+    margin: -55px 50px 5px 50px;
+    padding: 0px;
+    text-align: center;
+    /* border: 2px solid white; */
+    
+}
+
+.buttons {
+    justify-content: space-around;
+    /* height: 20px; */
+}
+
+.clicker {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: 500;
+    font-size: large;
+    border: 2px solid #9AABD8;
+    background-color: #1B244A;
+    color: #9AABD8;
+    margin: 5px 10px;
+    padding: 8px;
+    border-radius: 8px;
+    
+}
+
+.score {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: beige;
+    font-size: 90px;
+    font-weight: 400;
+    padding: 10px 15px 0px 15px;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid black;
+    align-items: center;
+    background-color: black;
+}
+
+.leading {
+    color: #059669; /* Color for the leading team */
+}
+
+.losing {
+    color: #E11D48; /* Color for the leading team */
+}
+
+.headings {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    color: #EEEEEE;
+}
+
+.main {
+    text-align: center;
+}
+
+#newGame {
+    text-align: center;
+    margin: -90px auto;
+}
